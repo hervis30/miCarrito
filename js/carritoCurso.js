@@ -1,4 +1,4 @@
-class Carrito {
+class CarritoCurso {
     comprarCurso(e) {
         e.preventDefault();
         if (e.target.classList.contains('agregar-carrito')) {

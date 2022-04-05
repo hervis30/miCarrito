@@ -18,17 +18,17 @@ const boton = document.createElement('button');
 nombreCurso.textContent = 'nombre escudo';
 imagenCurso.src = 'https://variedadesdecolombia.com/wp-content/uploads/2014/07/escudo-de-colombia-y-su-significado-768x512.jpg';
 imagenCurso.classList.add('imagen-curso', 'u-full-width');
-imagenTres.src = 'img/java.jpg';
+
 
 imagenTres.classList.add('imagen-curso', 'u-full-width');
-boton.classList.add('u-full-width', 'button-primary');
+boton.classList.add('button-primary');
 
-nombreProfe.textContent = 'carlos';
+nombreProfe.textContent = 'escudo';
 boton.textContent = 'agregar al carrito';
 
 
 
-card.append(imagenCurso, imagenTres, nombreCurso, nombreProfe, boton);
+card.append(imagenCurso, nombreCurso, nombreProfe, boton);
 row.append(card);
 console.log(card);
 
@@ -50,7 +50,4 @@ row.append(cardDos);
 console.log(cardDos);
 
 
-
-const imagenCursoTres = document.createElement('img');
-imagenCursoTres.src = 'https://files.antena2.com/antena2/public/styles/imagen_despliegue/public/2022-03/COLP_EXT_108677.jpg?VersionId=T91fWhtXKVZxRvOHl4CdtXBNh3PwKlsl&h=a383c038&itok=zAxqX-Xh'
 imagenCursoDos.classList.add('imagen-curso', 'u-full-width');
